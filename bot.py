@@ -8,7 +8,7 @@ import time
 from constants import URL, ANNOUNCE_CHN_ID  # Import the URL list from constants.py
 from utils import fetch_notifications  # Import your fetch_notifications function
 
-TOKEN = open('data/TOKEN.txt', 'r').readline().strip()
+TOKEN = open('.env', 'r').readline().strip()
 
 intents = discord.Intents.default()  # even default is more than we actually need
 intents.members = True  # For AoC
