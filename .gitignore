@@ -1,0 +1,9 @@
+Pipfile*
+.vscode
+.idea
+data
+__pycache__
+pyproject.toml
+poetry.lock
+
+venv
